@@ -12,7 +12,6 @@ var chalk = require('chalk');
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var defaultConfig = require(path.resolve('webpack.config.js'));
-var env = require('gulp-env');
 
 var devConfig = Object.create(defaultConfig);
 devConfig.devtool = 'eval';
